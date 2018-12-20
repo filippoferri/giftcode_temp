@@ -160,3 +160,33 @@ a,
 .banner-title h4 {
     color: white;
 }
+
+.has-max-width {
+    max-width: 100%;
+}
+
+.post-single.one-third {
+    margin-bottom: 46px;
+}
+
+.hotel-intro-box-resize .post-single {
+    width: 100%;
+}
+
+.v-middle {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .hotel-intro-box-resize .post-single {
+        width: 250px;
+    }
+
+    .post-single.one-third {
+        margin-bottom: 0;
+    }
+
+    .v-middle {
+        display: block;
+    }
+}
